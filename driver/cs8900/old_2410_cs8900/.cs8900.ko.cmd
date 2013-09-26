@@ -1,0 +1,1 @@
+cmd_/home/liu/old_2410/cs8900/cs8900.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/liu/old_2410/linux-2.6.35_farsight/scripts/module-common.lds --build-id -o /home/liu/old_2410/cs8900/cs8900.ko /home/liu/old_2410/cs8900/cs8900.o /home/liu/old_2410/cs8900/cs8900.mod.o

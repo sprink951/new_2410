@@ -35,7 +35,7 @@
 #define ALLOW_DMA	1
 #endif
 
-//#define CONFIG_CS89x0_PLATFORM
+#define CONFIG_CS89x0_PLATFORM
 /*
  * Set this to zero to remove all the debug statements via
  * dead code elimination
