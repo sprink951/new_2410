@@ -1,0 +1,10 @@
+ifeq ($(KERNELRELEASE),)
+KERN_DIR=/home/liu/linux-3.10.12
+PWD=$(shell pwd)
+modules:
+	$(MAKE) -C $(KERN_DIR) M=$(PWD) modules
+clean:
+	rm -rf *.o *.ko Modu* modu*
+else
+	obj-m=cs8900.o
+endif
